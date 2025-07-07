@@ -11,4 +11,4 @@ export default function BlogIndex() {
     {
       title: 'Building the MikyMunki Site',
       excerpt: 'A behind-the-scenes look at how we built this site, from planning to deployment.',
-      slug: 'building-the-mikym
+      slug: 'building-the-mikymunki-site'
