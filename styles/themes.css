@@ -1,0 +1,39 @@
+[data-theme="dark"] {
+  --background-color: var(--color-black);
+  --text-color: var(--color-white);
+  --link-color: var(--color-accent-highlight);
+  --button-bg: var(--color-primary-darkgreen);
+  --button-hover-bg: var(--color-highlight-green);
+}
+
+[data-theme="light"] {
+  --background-color: var(--color-white);
+  --text-color: var(--color-black);
+  --link-color: var(--color-highlight-blue);
+  --button-bg: var(--color-primary-darkblue);
+  --button-hover-bg: var(--color-highlight-blue);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--button-hover-bg);
+}
+
+button, .cta-button {
+  background-color: var(--button-bg);
+  color: var(--text-color);
+}
+
+button:hover, .cta-button:hover {
+  background-color: var(--button-hover-bg);
+  color: var(--background-color);
+}
